@@ -47,6 +47,11 @@ class _LoginPageState extends State<LoginPage> {
       });
     }
   }
+  // 1.singleChildScrollView widget = is used to create a scrollable container .
+  //2.BoxFit  define how an image should be inscribed into a box.
+  //3.onChanged property is a callback function that is invoked 
+  //whenever the content of the input field changes
+  //4.InkWell is a Material Design widget that provides a visual splash effect when tapped LIKE FEEDBACK
 
   @override
   Widget build(BuildContext context) {

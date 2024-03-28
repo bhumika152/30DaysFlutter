@@ -6,7 +6,9 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(MyApp());
 }
-
+//widgets is a blocks that user interacts with
+//BuildContext tell the location of widget in a widget tree
+// Material App having structure and functionality of app
 class MyApp extends StatelessWidget{
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -21,7 +23,8 @@ class MyApp extends StatelessWidget{
         ),
       
       ),
-      //initialRoute: "/home",
+      debugShowCheckedModeBanner: false,
+      initialRoute: Myroutes.homeroute,
       routes: {
         "/":(context) => LoginPage(),
         Myroutes.homeroute: (context) => Home(),
